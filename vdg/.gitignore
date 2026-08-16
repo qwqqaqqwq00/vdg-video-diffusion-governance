@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Test / tooling caches
+.pytest_cache/
+.benchmarks/
+.coverage
+htmlcov/
+
+# Environment
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Generated simulation outputs (regenerate via scripts/)
+# test_results/results.json is committed as the documented test artifact;
+# keep large generated dumps out unless needed.
+*.log
